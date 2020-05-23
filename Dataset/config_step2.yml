@@ -1,0 +1,20 @@
+language:
+    nouncount: 6
+    verbcount: 6
+    blockcount: 150
+    quantifiers: ["all", "some"]
+    adjectives: ["red", "rose", ""]
+    Neg: ["not", ""]
+    RC: ["that sing", "that hum", ""]
+traincells:
+    intrablock: 95
+    crossblock: 90
+    coresets_percell: 1
+testcells:
+    intrablock: 2              #in-block cells, trained
+    trained_crossblock: 2      #crossblock cells, trained
+    fliptrained_crossblock: 5   #crossblock cells, untrained, w/ trained mirrors/'twins'
+    untrained_crossblock: 10    #crossblock cells, untrained, flip untrained
+    wug_count: 20        #crossblock cells XY where neither X nor Y has been crossed in train
+    coresets_percell: 1
+    neighbour_max_editdistance: 1
