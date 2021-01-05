@@ -1,7 +1,12 @@
-# Probing Linguistic Systematicity
-This is the code for generating the dataset and probes reported in [Probing Linguistic Systematicity](https://arxiv.org/abs/2005.04315). 
+## Probing Linguistic Systematicity
 
-Code for the experiments in the paper, including the models, will be released shortly. 
+Code of dataset generations and experiments of the paper _"Probing Linguistic Systematicity"_, to be presented at ACL 2020.
+
+### Organization
+
+- [dataset](dataset) - consists of dataset generation codes
+- [experiments](experiments) - consists of experimentation codes
+- [Analysis](Analysis) - consists of plots and analysis used in the paper
 
 ### Citation
 
