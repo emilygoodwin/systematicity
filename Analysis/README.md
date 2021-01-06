@@ -12,14 +12,14 @@ Then run `output_cruncher.py`, which reads in `metadata.json` and writes out CSV
 ### Plotting
 
 To get the plots for known word perturbation probe:\
-run `comparing_encoders_KWP.R` and then `plotKWP.R` \\
+run `comparing_encoders_KWP.R` and then `plotKWP.R` 
 
 To get the plots for logical consistency probe:\
-run `comparing_encoders_consistency.R` and then `plotConsistency.R` \\
+run `comparing_encoders_consistency.R` and then `plotConsistency.R` 
 
 To get the plots for logical consistency probe:\
 run `comparing_encoders_IOCW.R` and then `plotIOCW.R`
 
 ### Word Embedding Analyses
 
-Notebook  `word_analysis.ipynb` will analyze the word embeddings, try to cluster them (Figure 1 in the paper) and get some similarity metrics. \
+Notebook  `word_analysis.ipynb` will analyze the word embeddings, try to cluster them (Figure 1 in the paper) and get some similarity metrics. 
